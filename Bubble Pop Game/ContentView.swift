@@ -10,9 +10,10 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationStack {
-                    GameReadyView()
-                        .environmentObject(BubbleViewModel())
-                }
+            // adding the home screen view here
+            GameReadyView()
+                .environmentObject(BubbleViewModel())
+        }
     }
 }
 

@@ -6,7 +6,8 @@
 //
 import SwiftUI
 
-struct Player: Identifiable {
+// Player model
+struct Player: Identifiable, Codable {
     var id: UUID = UUID()
     var name: String
     var score: Int

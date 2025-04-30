@@ -6,6 +6,7 @@
 //
 import SwiftUI
 
+//bubble model
 struct Bubble: Identifiable{
     var id: UUID = UUID()
     var color: Color
